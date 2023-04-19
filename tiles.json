@@ -1,0 +1,23 @@
+{
+    "tilejson": "2.2.0",
+    "name": "GSI-BinaryVectorMap",
+    "format": "pbf",
+    "maxzoom": 14,
+    "minzoom": 0,
+    "attribution": "国土地理院",
+    "description": "GSI Experiment",
+    "vector_layers": [
+        {
+            "id": "road",
+            "fields": {
+                "motorway": "String"
+            },
+            "maxzoom": 14,
+            "minzoom": 0,
+            "description": ""
+        }
+    ],
+    "tiles": [
+        "https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/{z}/{x}/{y}.pbf"
+    ]
+}
